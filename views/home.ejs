@@ -1,0 +1,16 @@
+<%-include("partials/header")-%>
+
+<h1><%=wpage%></h1>
+<p id="lor"><%=homecontent%></p>
+<ul id="listing">
+    <% for(var i=0;i<pos.length;i++){ %>
+        <li>
+            <h2><%= pos[i].title %></h2>
+            <p><%= pos[i].post.substring(0,100)+".." %>
+                 <a href="/posts/<%=pos[i].title%>">Read more</a></p>
+        </li>
+
+   <% } %>
+</ul>
+
+<%-include("partials/footer")-%>

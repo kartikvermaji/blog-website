@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color:#f18008;
+    color:aliceblue;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: 300;
+}
+#navpannel{
+    background-color:#f3ac12;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    width: 100vw;
+    height: 6rem;
+}
+#navpannel h1{
+    font-size: 3rem;
+}
+#pannel a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+}
+#pannel a:hover{
+    color: 	#e65006;
+}
+#pannel{ 
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#foot{
+    background-color: #9a0b56;
+    width: 100%;
+    position:relative;
+    bottom: 0;
+    height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0px;
+}
+.comp{
+    height: 3rem;
+    width:30rem;
+    border-radius: 10px;
+    font-size: larger;
+    text-align: center;
+    border:1px solid #f18008;
+}
+#publish{
+    height: 3rem;
+    width: 5rem;
+    border-radius: 10px;
+    font-size: larger;
+    border:1px solid #f18008;
+}
+
+#publish:hover{
+    background-color: #9a0b56;
+}
+#posti{
+    height: 10rem;
+    width: 30rem;
+    font-size: 2rem;
+}
+.lab{
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+#listing{
+    left: 20rem;
+    width: 70vw;
+}
+#lor{
+    width: 70vw;
+}
+#para{
+    width: 70vw;
+    font-size: larger;
+}
